@@ -3,7 +3,7 @@
 
 
 import os
-os.chdir('E:\\SiteResp_GMSelect\\Python_SourceCode')
+os.chdir('/Users/som/Dropbox/SiteResp_GMSelect/Python_SourceCode')
 import pdb
 import csv
 import EquivLin
@@ -43,7 +43,7 @@ ii6 = 0
 iii = 0
 
 SF = np.arange(0.25,10.5,0.25)
-# SF = np.arange(0.25,0.5,0.25)
+# np.arange(0.25,10.5,0.25)
 
 for ii in np.arange(0,len(SF),1):
     SF_req = SF[ii]
